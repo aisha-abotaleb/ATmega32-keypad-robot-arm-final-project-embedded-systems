@@ -1,0 +1,28 @@
+#ifndef TIMER2_CONFIG_H_
+#define TIMER2_CONFIG_H_
+
+/*
+ * OPTIONS:
+  NORMAL_MODE
+  PHASE_CORRECT_PWM
+  CTC_MODE
+  FAST_PWM
+ *
+ */
+#define	TIMER2_MODE	FAST_PWM
+
+/*
+ * OPTIONS:
+  NO_CLOCK
+  NO_PRESCALER
+  DIV_8
+  DIV_32
+  DIV_64
+  DIV_128
+  DIV_256
+  DIV_1024
+ *
+ */
+#define TIMER2_PRESCALER	DIV_256
+
+#endif
