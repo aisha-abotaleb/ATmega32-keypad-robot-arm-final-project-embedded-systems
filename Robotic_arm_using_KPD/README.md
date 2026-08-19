@@ -1,5 +1,8 @@
 # Robotic Arm Control using AVR and 4x4 Keypad
 ![Simulation on proteus](./simulation_on_proteus.png)
+
+
+
 This project controls a **robotic arm** equipped with 4 servo motors using a single AVR microcontroller and a 4x4 matrix keypad.
 
 - **Servo 1 (Base)**: Left/Right rotation.
